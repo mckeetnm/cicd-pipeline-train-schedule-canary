@@ -1,8 +1,8 @@
-pipeline {
+npipeline {
     agent any
     environment {
         //be sure to replace "willbla" with your own Docker Hub username
-        DOCKER_IMAGE_NAME = "willbla/train-schedule"
+        DOCKER_IMAGE_NAME = "mckeetnm/train-schedule"
     }
     stages {
         stage('Build') {
